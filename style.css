@@ -37,20 +37,20 @@ menu {
 
 
 .container {
-    max-width: 800px;
+    max-width: 1300px;
     margin: 0 auto;
 }
 
 .card {
     background-color: #fff;
     padding: 25px;
-    border-radius: 5px
+    border-radius: 3px
 }
 
 .space {
     padding-top: 1px;
     background-color: #ffffff00;
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -58,22 +58,70 @@ menu {
     background-color: #fff;
 }
 
+.list-item {
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+
 .list-item>* {
     vertical-align: middle;
 }
 
 .list-item p {
     display: inline;
+    font-size: 18px;
 }
 
 .list-item span {
     display: inline-block;
-    width: 30px;
-    color: #fff;
-    background-color: rgb(22, 185, 250);
+    width: 23px;
     font-size: 14px;
     border-radius: 50%;
     margin-right: 10px;
     text-align: center;
-    line-height: 30px;
+    line-height: 22px;
+}
+
+.list-item .positive {
+    color: #0eca08;
+    border: 1px solid #0eca08;
+}
+
+.list-item .negative {
+    color: #ca1f08;
+    border: 1px solid #ca0808;
+}
+
+.list-item h5 {
+    color: #fff;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 12px;
+}
+
+.list-item .editorial {
+    background-color: rgb(22, 185, 250);
+}
+
+.list-item .goals {
+    background-color: rgb(165, 46, 149);
+}
+
+.list-item .recruiting {
+    background-color: rgb(35, 201, 173);
+}
+
+
+.list-item .mobile {
+    background-color: rgb(255, 166, 0);
+}
+
+.list-item .website {
+    background-color: rgb(230, 90, 206);
+}
+
+.list-item .sales {
+    background-color: rgb(169, 230, 90);
 }
