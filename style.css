@@ -1,9 +1,18 @@
+/* ! Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
 }
+
+ul,
+ol,
+menu {
+    list-style: none;
+}
+
+/* ! /Reset */
 
 body {
     background-color: rgb(241, 239, 239);
@@ -25,11 +34,7 @@ button:hover {
     background-color: rgb(22, 185, 250);
 }
 
-ul,
-ol,
-menu {
-    list-style: none;
-}
+
 
 .content {
     padding: 60px 0;
@@ -83,6 +88,8 @@ menu {
     line-height: 22px;
 }
 
+/* ! Color-List-item */
+
 .list-item .positive {
     color: #0eca08;
     border: 1px solid #0eca08;
@@ -125,3 +132,5 @@ menu {
 .list-item .sales {
     background-color: rgb(169, 230, 90);
 }
+
+/* ! /Color-List-item */
